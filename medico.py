@@ -1,6 +1,6 @@
 from pessoa import Pessoa
 
-class Médico(Pessoa):
+class Medico(Pessoa):
     def __init__(self, nome, idade, crm):
         super().__init__(nome, idade)
         self.__crm=crm
