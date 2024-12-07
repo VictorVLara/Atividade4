@@ -12,4 +12,4 @@ class Medico(Pessoa):
         return self.__crm
 
     def mostrar(self):
-        return f"Nome do cachorro: {self.getNome()} \nIdade: {self.getIdade()} \nPorte: {self.getCrm()}"
+        return f"Nome do médico: {self.getNome()} \nIdade: {self.getIdade()} \nCRM: {self.getCrm()}"
